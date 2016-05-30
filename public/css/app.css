@@ -5733,4 +5733,9 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+.github-repo {
+  min-width: 48px;
+  min-height: 48px;
+  line-height: 48px; }
+
 /*# sourceMappingURL=app.css.map */

@@ -61,8 +61,9 @@
                 <h2>My Last <a href="http://github.com">github</a> events</h2>
                 <ul>
                     @foreach ($events as $event)
-                        <li>{{ $event->created_at->diffForHumans() }} {{ $event->type }} on
-                        <a class="label label-primary" href="http://github.com/{{ $event->repo }}" target="_blank">{{ $event->repo }}</a>
+                        <li>
+                            {{ $event->created_at->diffForHumans() }} {{ $event->type }} on
+                            <a class="label label-primary github-repo" href="http://github.com/{{ $event->repo }}" target="_blank">{{ $event->repo }}</a>
                         </li>
                     @endforeach
                 </ul>
