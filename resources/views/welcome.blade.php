@@ -23,13 +23,13 @@
   <body>
     <div class="jumbotron">
         <div class="container">
-            <div class="row">
+            <div class="row" itemscope itemtype="http://schema.org/Person">
                 <div class="col-md-3">
-                    <img src="images/avatar.png" alt="Álvaro Guimarães" width="250" height="250" />
+                    <img itemprop="image" src="images/avatar.png" alt="Álvaro Guimarães" width="250" height="250" />
                 </div>
                 <div class="col-md-9">
-                    <h1>Álvaro Guimarães</h1>
-                    <p>PHP Developer, Open Source community collaborator and father of 3 beautiful children.</p>
+                    <h1 itemprop="name">Álvaro Guimarães</h1>
+                    <p itemprop="description">PHP Developer, Open Source community collaborator and father of 3 beautiful children.</p>
                     <p><a class="btn btn-primary btn-lg" href="#" role="button">More about me &raquo;</a></p>
                 </div>
             </div>
