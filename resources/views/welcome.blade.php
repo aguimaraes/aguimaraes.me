@@ -1,21 +1,4 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta charset="utf-8">
-        <title>Álvaro Guimarães</title>
-        <!-- Meta -->
-        <meta name="description" content="Senior PHP developer">
-        <meta name="keywords" content="web,developer,php,laravel,resume" />
-        <meta name="author" content="Álvaro Guimarães">
-        <!-- CSS Stylesheet -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    </head>
-    <body>
-    </body>
-</html>
-
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -27,7 +10,7 @@
     <meta name="description" content="Senior PHP developer">
     <meta name="keywords" content="web,developer,php,laravel,resume" />
     <meta name="author" content="Álvaro Guimarães">
-
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -88,9 +71,6 @@
             <p>&copy; 2016 Álvaro Guimarães.</p>
         </footer>
     </div>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
