@@ -55,7 +55,9 @@
                 <h2>@aguimaraes1986</h2>
                 @foreach ($tweets as $tweet)
                     <p>
-                    {{ $tweet->created_at->diffForHumans() }} <strong>@aguimaraes</strong> {{ $tweet->text }}
+                    {{ $tweet->created_at->diffForHumans() }}
+                    <a href="http://twitter.com/aguimaraes1986" target="_blank">@aguimaraes1986</a>
+                    {{ $tweet->text }}
                     </p>
                 @endforeach
                 <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
