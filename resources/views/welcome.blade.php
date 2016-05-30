@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-md-9">
                     <h1 itemprop="name">Álvaro Guimarães</h1>
-                    <p itemprop="description">PHP Developer, Open Source community collaborator and father of 3 beautiful children.</p>
+                    <p itemprop="description">PHP Developer, Open Source community collaborator and father of 3 beautiful child.</p>
                     <p><a class="btn btn-primary btn-lg" href="#" role="button">More about me &raquo;</a></p>
                 </div>
             </div>
