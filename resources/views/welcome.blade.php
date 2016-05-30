@@ -39,7 +39,7 @@
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h2>My Last <a href="http://github.com">github</a> events</h2>
                 <ul>
                     @foreach ($events as $event)
@@ -51,19 +51,14 @@
                 </ul>
                 <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h2>@aguimaraes1986</h2>
                 @foreach ($tweets as $tweet)
                     <p>
                     {{ $tweet->created_at->diffForHumans() }} <strong>@aguimaraes</strong> {{ $tweet->text }}
                     </p>
                 @endforeach
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Last Post</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
             </div>
         </div>
 
