@@ -20,3 +20,6 @@ storage/
 config/github.php
 storage/github/*
 config/ttwitter.php
+
+#Assets
+public/css/app.*
