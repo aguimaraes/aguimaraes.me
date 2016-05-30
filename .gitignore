@@ -18,3 +18,5 @@ storage/
 
 # Services config
 config/github.php
+storage/github/*
+config/ttwitter.php
