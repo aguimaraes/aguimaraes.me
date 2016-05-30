@@ -62,7 +62,7 @@
                 <ul>
                     @foreach ($events as $event)
                         <li>{{ $event->created_at->diffForHumans() }} {{ $event->type }} on
-                        <a href="http://github.com/{{ $event->repo }}" target="_blank">{{ $event->repo }}</a>
+                        <a class="label label-primary" href="http://github.com/{{ $event->repo }}" target="_blank">{{ $event->repo }}</a>
                         </li>
                     @endforeach
                 </ul>
