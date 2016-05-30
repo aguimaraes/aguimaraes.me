@@ -70,7 +70,11 @@
             </div>
             <div class="col-md-4">
                 <h2>@aguimaraes1986</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                @foreach ($tweets as $tweet)
+                    <p>
+                    {{ $tweet->created_at->diffForHumans() }} <strong>@aguimaraes</strong> {{ $tweet->text }}
+                    </p>
+                @endforeach
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-md-4">

@@ -15,6 +15,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         Commands\GithubEvents::class,
+        Commands\TwitterTimeline::class,
     ];
 
     /**
@@ -26,5 +27,6 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->command('github:events')->hourly();
+        $schedule->command('twitter:timeline')->hourly();
     }
 }
