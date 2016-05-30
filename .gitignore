@@ -12,3 +12,9 @@ storage/
 .env.php
 .env
 .env.example
+
+# Sublime text
+*.sublime*
+
+# Services config
+config/github.php
