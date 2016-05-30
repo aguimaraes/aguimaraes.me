@@ -10,7 +10,9 @@
     <meta name="description" content="Senior PHP developer">
     <meta name="keywords" content="web,developer,php,laravel,resume" />
     <meta name="author" content="Álvaro Guimarães">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <style type="text/css">
+        {!! file_get_contents(public_path('css/app.css')) !!}
+    </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
