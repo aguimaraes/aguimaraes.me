@@ -1,0 +1,1695 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prefix",
+				"tablePrefix"
+			],
+			[
+				"recipe",
+				"recipeNumber"
+			],
+			[
+				"recpe",
+				"recipeNumber"
+			],
+			[
+				"sendXML",
+				"sendXMLString"
+			],
+			[
+				"simplexml",
+				"simplexml_load_string"
+			],
+			[
+				"refresh",
+				"refreshToken"
+			],
+			[
+				"tray_",
+				"tray_access_token"
+			],
+			[
+				"tray",
+				"tray_access_token_expiration"
+			],
+			[
+				"tray_refre",
+				"tray_refresh_token_expiration"
+			],
+			[
+				"tray_access_",
+				"tray_access_token_expiration"
+			],
+			[
+				"request",
+				"requestResult"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/welcome.blade.php",
+			"settings":
+			{
+				"buffer_size": 4174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/app.php",
+			"settings":
+			{
+				"buffer_size": 8376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/services.php",
+			"settings":
+			{
+				"buffer_size": 1186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/socialite/src/Two/GithubProvider.php",
+			"settings":
+			{
+				"buffer_size": 2364,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Controller.php",
+			"settings":
+			{
+				"buffer_size": 441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace App\\Http\\Controllers;\n\nuse App\\Http\\Requests;\nuse Illuminate\\Http\\Request;\nuse Laravel\\Socialite\\Facades\\Socialite;\n\nclass HomeController extends Controller\n{\n    /**\n     * Display a listing of the resource.\n     *\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function index()\n    {\n        \n        return view('welcome');\n    }\n\n    /**\n     * Show the form for creating a new resource.\n     *\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function create()\n    {\n        //\n    }\n\n    /**\n     * Store a newly created resource in storage.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function store(Request $request)\n    {\n        //\n    }\n\n    /**\n     * Display the specified resource.\n     *\n     * @param  int  $id\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function show($id)\n    {\n        //\n    }\n\n    /**\n     * Show the form for editing the specified resource.\n     *\n     * @param  int  $id\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function edit($id)\n    {\n        //\n    }\n\n    /**\n     * Update the specified resource in storage.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @param  int  $id\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function update(Request $request, $id)\n    {\n        //\n    }\n\n    /**\n     * Remove the specified resource from storage.\n     *\n     * @param  int  $id\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function destroy($id)\n    {\n        //\n    }\n}\n",
+			"file": "app/Http/Controllers/HomeController.php",
+			"file_size": 1658,
+			"file_write_time": 131088288501787480,
+			"settings":
+			{
+				"buffer_size": 1601,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 434,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/socialite/src/Two/AbstractProvider.php",
+			"settings":
+			{
+				"buffer_size": 8784,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/socialite/src/SocialiteManager.php",
+			"settings":
+			{
+				"buffer_size": 3806,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/assets/sass/app.scss",
+			"settings":
+			{
+				"buffer_size": 69,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 614,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 356.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Discover Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/alvaro/Documents/aguimaraes.me",
+		"/home/alvaro/Documents/aguimaraes.me/app",
+		"/home/alvaro/Documents/aguimaraes.me/app/Http",
+		"/home/alvaro/Documents/aguimaraes.me/app/Http/Controllers",
+		"/home/alvaro/Documents/aguimaraes.me/node_modules/bootstrap-sass/assets",
+		"/home/alvaro/Documents/aguimaraes.me/node_modules/bootstrap-sass/assets/javascripts",
+		"/home/alvaro/Documents/aguimaraes.me/node_modules/bootstrap-sass/lib/bootstrap-sass",
+		"/home/alvaro/Documents/aguimaraes.me/public/css",
+		"/home/alvaro/Documents/aguimaraes.me/public/js",
+		"/home/alvaro/Documents/aguimaraes.me/resources",
+		"/home/alvaro/Documents/aguimaraes.me/storage"
+	],
+	"file_history":
+	[
+		"/home/alvaro/.config/sublime-text-3/Packages/User/HTMLBeautify.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Grammar.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Schema/Grammars/Grammar.php",
+		"/home/alvaro/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/alvaro/Documents/laravel-framework-fork/tests/Database/DatabaseMySqlSchemaGrammarTest.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Query/Grammars/Grammar.php",
+		"/home/alvaro/Documents/laravel-framework-fork/tests/Database/DatabasePostgresSchemaGrammarTest.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php",
+		"/home/alvaro/Documents/laravel-framework-fork/tests/Database/DatabasePostgresProcessorTest.php",
+		"/home/alvaro/Documents/laravel-framework-fork/tests/Database/DatabaseQueryBuilderTest.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Schema/Blueprint.php",
+		"/home/alvaro/Documents/laravel-framework-fork/tests/Database/DatabaseSchemaBlueprintTest.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Connection.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Migrations/Migrator.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Migrations/Migration.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Migrations/MigrationCreator.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/MigrationServiceProvider.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Database/Query/Grammars/MySqlGrammar.php",
+		"/home/alvaro/Documents/laravel-framework-fork/src/Illuminate/Foundation/Testing/DatabaseMigrations.php",
+		"/home/alvaro/Documents/bedm/vendor/nfephp-org/nfephp/libs/MDFe/ToolsMDFe.php",
+		"/home/alvaro/Documents/bedm/vendor/nfephp-org/nfephp/config/mdfe_ws1.xml",
+		"/home/alvaro/Documents/bedm/app/Console/Commands/MDFe.php",
+		"/home/alvaro/Documents/bedm/vendor/phpgt/dom/src/HTMLDocument.php",
+		"/home/alvaro/Documents/bedm/vendor/nfephp-org/nfephp/libs/Common/Certificate/Pkcs12.php",
+		"/home/alvaro/Documents/bedm/vendor/nfephp-org/nfephp/libs/Common/Base/BaseTools.php",
+		"/home/alvaro/Documents/bedm/vendor/nfephp-org/nfephp/config/config.json",
+		"/home/alvaro/Documents/bedm/vendor/nfephp-org/nfephp/libs/Common/Base/BaseMake.php",
+		"/home/alvaro/Documents/bedm/storage/mdfe.json",
+		"/home/alvaro/.config/sublime-text-3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/User/JSONReindent.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/JSON Reindent/JSONReindent.sublime-settings",
+		"/home/alvaro/Documents/bedm/vendor/nfephp-org/nfephp/install/criaJsonConfig.php",
+		"/home/alvaro/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/alvaro/Documents/bedm/app/Console/Kernel.php",
+		"/home/alvaro/Documents/bedm/.gitignore",
+		"/home/alvaro/Documents/bedm/composer.json",
+		"/home/alvaro/Documents/zip/app/Models/Tray/Product.php",
+		"/home/alvaro/Documents/zip/app/Models/Product.php",
+		"/home/alvaro/Documents/zip/database/migrations/2016_05_06_161204_tray_username_must_not_be_unique_on_users_table.php",
+		"/home/alvaro/Documents/zip/app/Models/User.php",
+		"/home/alvaro/Documents/zip/app/Oauth/TrayProvider.php",
+		"/home/alvaro/Documents/zip/app/Http/Controllers/CustomerController.php",
+		"/home/alvaro/Documents/zip/resources/views/products/index.blade.php",
+		"/home/alvaro/Documents/zip/resources/views/product_category/index.blade.php",
+		"/home/alvaro/Documents/zip/resources/views/auth/login.blade.php",
+		"/home/alvaro/Documents/zip/resources/views/user/store.blade.php",
+		"/home/alvaro/Documents/zip/resources/views/login-layout.blade.php",
+		"/home/alvaro/Documents/zip/vendor/laravel/socialite/src/Two/GoogleProvider.php",
+		"/home/alvaro/Documents/zip/vendor/nesbot/carbon/src/Carbon/Carbon.php",
+		"/home/alvaro/Documents/zip/database/migrations/2016_04_20_090532_add_tray_fields_to_users_table.php",
+		"/home/alvaro/Documents/zip/app/Http/Controllers/Auth/TrayController.php",
+		"/home/alvaro/Documents/zip/resources/views/blocks/header.blade.php",
+		"/home/alvaro/Documents/zip/vendor/laravel/socialite/src/AbstractUser.php",
+		"/home/alvaro/Documents/zip/app/Http/Controllers/Tray/CustomerController.php",
+		"/home/alvaro/Documents/zip/resources/views/quotation/create.blade.php",
+		"/home/alvaro/Documents/zip/app/Models/Quotation.php",
+		"/home/alvaro/Documents/zip/app/Http/Controllers/ProductController.php",
+		"/home/alvaro/Documents/zip/vendor/laravel/socialite/src/Contracts/User.php",
+		"/home/alvaro/Documents/zip/app/Oauth/TrayUser.php",
+		"/home/alvaro/Documents/zip/vendor/laravel/socialite/src/Two/User.php",
+		"/home/alvaro/Documents/zip/database/seeds/RoleTableSeeder.php",
+		"/home/alvaro/Documents/zip/database/seeds/RoleUserTableSeeder.php",
+		"/home/alvaro/Documents/zip/database/seeds/PermissionTableSeeder.php",
+		"/home/alvaro/Documents/zip/vendor/laravel/socialite/src/Two/AbstractProvider.php",
+		"/home/alvaro/Documents/zip/.env",
+		"/home/alvaro/Documents/zip/vendor/laravel/socialite/src/One/AbstractProvider.php",
+		"/home/alvaro/Documents/zip/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/home/alvaro/Documents/zip/resources/views/components/alerts.blade.php",
+		"/home/alvaro/Documents/zip/app/Models/Tray/Customer.php",
+		"/home/alvaro/Documents/zip/app/Models/Customer.php",
+		"/home/alvaro/Documents/zip/app/Rest/TrayCustomer.php",
+		"/home/alvaro/Documents/zip/app/Traits/Tray/ImportsAndExports.php",
+		"/home/alvaro/Documents/zip/app/Traits/Tray/Imports.php",
+		"/home/alvaro/Documents/zip/app/Traits/Tray/Reconstructs.php",
+		"/home/alvaro/Documents/zip/app/Traits/Tray/RestClient.php",
+		"/home/alvaro/Documents/zip/app/Rest/TrayAbstract.php",
+		"/home/alvaro/Documents/zip/app/Traits/Tray/ResolvesSoap.php",
+		"/home/alvaro/Documents/zip/app/Http/routes.php",
+		"/home/alvaro/.config/sublime-text-3/Packages/User/PHP Companion.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 60.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ul",
+			"wraptable",
+			"prefix",
+			"dd(",
+			"dd",
+			"wrapValue",
+			"isexpression",
+			"prefix",
+			"connection",
+			"prefix",
+			"mkdir",
+			"ocertificate",
+			"prikey",
+			"loadpfx",
+			"O certificado",
+			"mport",
+			"expires_at",
+			"dd",
+			"die",
+			"refresh",
+			"dates",
+			"protected",
+			"dd",
+			"input"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"public"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/welcome.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3364,
+								3364
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2015.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8363,
+								8363
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5040.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/services.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1110,
+								1110
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "vendor/laravel/socialite/src/Two/GithubProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/Controllers/Controller.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "vendor/laravel/socialite/src/Two/AbstractProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7306,
+								7306
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2351.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "vendor/laravel/socialite/src/SocialiteManager.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2613,
+								2613
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 55.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "resources/assets/sass/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 69,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								525,
+								525
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 74.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "aguimaraes.me.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"socialitem",
+				"vendor/laravel/socialite/src/SocialiteManager.php"
+			],
+			[
+				"routes.p",
+				"app/Http/routes.php"
+			],
+			[
+				"homecontroller",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"socialite",
+				"vendor/laravel/socialite/src/SocialiteManager.php"
+			],
+			[
+				"githubprovider",
+				"vendor/laravel/socialite/src/Two/GithubProvider.php"
+			],
+			[
+				"configservices.",
+				"config/services.php"
+			],
+			[
+				"configapp.php",
+				"config/app.php"
+			],
+			[
+				"mysqlgrammartest",
+				"tests/Database/DatabaseMySqlSchemaGrammarTest.php"
+			],
+			[
+				"mysqlgram",
+				"src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php"
+			],
+			[
+				"grammar",
+				"src/Illuminate/Database/Schema/Grammars/Grammar.php"
+			],
+			[
+				"grammar.php",
+				"src/Illuminate/Database/Query/Grammars/Grammar.php"
+			],
+			[
+				"databasegrammar",
+				"src/Illuminate/Database/Grammar.php"
+			],
+			[
+				"grammarsgrammar",
+				"src/Illuminate/Database/Query/Grammars/Grammar.php"
+			],
+			[
+				"postgrestest",
+				"tests/Database/DatabasePostgresProcessorTest.php"
+			],
+			[
+				"postgresgramam",
+				"tests/Database/DatabasePostgresSchemaGrammarTest.php"
+			],
+			[
+				"databasequerybuilder",
+				"tests/Database/DatabaseQueryBuilderTest.php"
+			],
+			[
+				"databasequerybui",
+				"tests/Database/DatabaseQueryBuilderTest.php"
+			],
+			[
+				"mysqlgrammar",
+				"src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php"
+			],
+			[
+				"blueprintte",
+				"tests/Database/DatabaseSchemaBlueprintTest.php"
+			],
+			[
+				"blueprint",
+				"src/Illuminate/Database/Schema/Blueprint.php"
+			],
+			[
+				"migration",
+				"src/Illuminate/Foundation/Testing/DatabaseMigrations.php"
+			],
+			[
+				"migrator",
+				"src/Illuminate/Database/Migrations/Migrator.php"
+			],
+			[
+				"migr",
+				"src/Illuminate/Database/Migrations/Migration.php"
+			],
+			[
+				"connection",
+				"src/Illuminate/Database/Connection.php"
+			],
+			[
+				"databaseschema",
+				"tests/Database/DatabaseSchemaBlueprintTest.php"
+			],
+			[
+				"mysqlshcema",
+				"tests/Database/DatabaseMySqlSchemaGrammarTest.php"
+			],
+			[
+				"toolsmdfe",
+				"vendor/nfephp-org/nfephp/libs/MDFe/ToolsMDFe.php"
+			],
+			[
+				"pkcs12",
+				"vendor/nfephp-org/nfephp/libs/Common/Certificate/Pkcs12.php"
+			],
+			[
+				"criajson",
+				"vendor/nfephp-org/nfephp/install/criaJsonConfig.php"
+			],
+			[
+				"mdfe",
+				"app/Console/Commands/MDFe.php"
+			],
+			[
+				"trayproduct",
+				"app/Models/Tray/Product.php"
+			],
+			[
+				"product",
+				"app/Models/Product.php"
+			],
+			[
+				"modelsuser",
+				"app/Models/User.php"
+			],
+			[
+				"migrationsunique",
+				"database/migrations/2016_05_06_161204_tray_username_must_not_be_unique_on_users_table.php"
+			],
+			[
+				"user",
+				"app/Models/User.php"
+			],
+			[
+				"trayprovider",
+				"app/Oauth/TrayProvider.php"
+			],
+			[
+				"product_categoryindex",
+				"resources/views/product_category/index.blade.php"
+			],
+			[
+				"productsindedx",
+				"resources/views/products/index.blade.php"
+			],
+			[
+				"customercontro",
+				"app/Http/Controllers/CustomerController.php"
+			],
+			[
+				"login.blade",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"login.bla",
+				"resources/views/login-layout.blade.php"
+			],
+			[
+				"store.blade",
+				"resources/views/user/store.blade.php"
+			],
+			[
+				"modelsquotation",
+				"app/Models/Quotation.php"
+			],
+			[
+				"quotationcreate",
+				"resources/views/quotation/create.blade.php"
+			],
+			[
+				"trayprovi",
+				"app/Oauth/TrayProvider.php"
+			],
+			[
+				"traycustomercontro",
+				"app/Http/Controllers/Tray/CustomerController.php"
+			],
+			[
+				"traycontrol",
+				"app/Http/Controllers/Auth/TrayController.php"
+			],
+			[
+				"produccontroller",
+				"app/Http/Controllers/ProductController.php"
+			],
+			[
+				"permission",
+				"database/seeds/PermissionTableSeeder.php"
+			],
+			[
+				"roles",
+				"database/seeds/RoleTableSeeder.php"
+			],
+			[
+				"header.bl",
+				"resources/views/blocks/header.blade.php"
+			],
+			[
+				"twouser",
+				"vendor/laravel/socialite/src/Two/User.php"
+			],
+			[
+				"trayuser",
+				"app/Oauth/TrayUser.php"
+			],
+			[
+				"abtractuser",
+				"vendor/laravel/socialite/src/AbstractUser.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"abstractprovider",
+				"vendor/laravel/socialite/src/Two/AbstractProvider.php"
+			],
+			[
+				"abstractprovi",
+				"vendor/laravel/socialite/src/One/AbstractProvider.php"
+			],
+			[
+				"customercontroller",
+				"app/Http/Controllers/Tray/CustomerController.php"
+			],
+			[
+				"carbon",
+				"vendor/nesbot/carbon/src/Carbon/Carbon.php"
+			],
+			[
+				"model",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"components/aler",
+				"resources/views/components/alerts.blade.php"
+			],
+			[
+				"customer",
+				"app/Models/Tray/Customer.php"
+			],
+			[
+				"googleprovider",
+				"vendor/laravel/socialite/src/Two/GoogleProvider.php"
+			],
+			[
+				"traycontroller",
+				"app/Http/Controllers/Auth/TrayController.php"
+			],
+			[
+				"reconstructs",
+				"app/Traits/Tray/Reconstructs.php"
+			],
+			[
+				"resol",
+				"app/Traits/Tray/ResolvesSoap.php"
+			],
+			[
+				"resolves",
+				"app/Traits/Tray/ResolvesSoap.php"
+			],
+			[
+				"importsand",
+				"app/Traits/Tray/ImportsAndExports.php"
+			],
+			[
+				"traycustomer",
+				"app/Models/Tray/Customer.php"
+			],
+			[
+				"customercontr",
+				"app/Http/Controllers/CustomerController.php"
+			],
+			[
+				"routes.",
+				"app/Http/routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 330.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
