@@ -68,6 +68,9 @@
 
         <footer>
             <p>&copy; 2016 Álvaro Guimarães.</p>
+            <p><a href="http://stackexchange.com/users/240540">
+                <img src="http://stackexchange.com/users/flair/240540.png" width="208" height="58" alt="profile for &#193;lvaro Guimar&#227;es on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for &#193;lvaro Guimar&#227;es on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+            </a></p>
         </footer>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
