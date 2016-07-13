@@ -15,10 +15,30 @@ class CreateGithubEventsTable extends Migration
         Schema::create('github_events', function (Blueprint $table) {
             $table->unsignedInteger('id');
             $table->string('type');
-            $table->string('actor');
-            $table->string('repo');
-            $table->string('repo_url');
+            $table->integer('actor_id');
+            $table->integer('repo_id');
+            $table->boolean('public');
+            $table->integer('org_id')->nullable();
             $table->timestamps();
+
+            $table->foreign('actor_id')
+                ->references('id')
+                ->on('actors')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
+
+            $table->foreign('repo_id')
+                ->references('id')
+                ->on('repos')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
+
+            $table->foreign('org_id')
+                ->references('id')
+                ->on('orgs')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
+
             $table->primary('id');
         });
     }

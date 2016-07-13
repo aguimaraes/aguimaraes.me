@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Repo;
 use App\Tweet;
 use App\GithubEvent;
-use App\Http\Requests;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -18,7 +18,8 @@ class HomeController extends Controller
     {
         $events = GithubEvent::latest()->paginate(20);
         $tweets = Tweet::latest()->paginate(10);
-        return view('welcome', compact('events', 'tweets'));
+        $repos = Repo::paginate();
+        return view('welcome', compact('events', 'tweets', 'repos'));
     }
 
     /**

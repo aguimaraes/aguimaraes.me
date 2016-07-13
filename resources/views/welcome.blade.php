@@ -39,20 +39,43 @@
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <div class="col-md-6">
-                <h2>My Last <a href="http://github.com">github</a> events</h2>
+            <div class="col-md-4">
+                <h3>My Last <a href="http://github.com">github</a> events</h3>
                 <ul>
                     @foreach ($events as $event)
                         <li>
                             {{ $event->created_at->diffForHumans() }} {{ $event->type }} on
-                            <a class="label label-primary github-repo" href="http://github.com/{{ $event->repo }}" target="_blank">{{ $event->repo }}</a>
+                            <a
+                                class="label label-primary github-repo"
+                                href="http://github.com/{{ $event->repo->name }}"
+                                target="_blank"
+                            >
+                                {{ $event->repo->name }}
+                            </a>
                         </li>
                     @endforeach
                 </ul>
                 <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
             </div>
-            <div class="col-md-6">
-                <h2>@aguimaraes1986</h2>
+            <div class="col-md-4">
+                <h3>Projects I'm contributing to</h3>
+                <ul>
+                    @foreach ($repos as $repo)
+                        <li>
+                            <a
+                                    class="label label-success github-repo"
+                                    href="http://github.com/{{ $repo->name }}"
+                                    target="_blank"
+                            >
+                                {{ $repo->name }}
+                            </a>
+                        </li>
+                    @endforeach
+                </ul>
+                <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+            </div>
+            <div class="col-md-4">
+                <h3>@aguimaraes1986</h3>
                 @foreach ($tweets as $tweet)
                     <p>
                     {{ $tweet->created_at->diffForHumans() }}

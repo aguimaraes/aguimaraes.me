@@ -2,13 +2,9 @@
 
 namespace App\Console\Commands;
 
-use Carbon\Carbon;
-use App\GithubEvent;
+use App\Http\Services\GithubEvent;
 use Illuminate\Console\Command;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;
-use GrahamCampbell\GitHub\GitHubManager;
-use Github\HttpClient\Message\ResponseMediator;
 
 class GithubEvents extends Command
 {
@@ -27,37 +23,14 @@ class GithubEvents extends Command
     protected $description = 'Update my github events';
 
     /**
-     * Create a new command instance.
-     *
-     * @return void
+     * get events and persist
+     * @param \App\Http\Services\GithubEvent $event
      */
-    public function __construct(GitHubManager $github)
-    {
-        $this->github = $github;
-        parent::__construct();
-    }
-
-    /**
-     * Execute the console command.
-     *
-     * @return mixed
-     */
-    public function handle()
+    public function handle(GithubEvent $event)
     {
         try {
-            $events = $this->github->getHttpClient()->get('/users/aguimaraes/events');
-            $response = new Collection(ResponseMediator::getContent($events));
-            $response->each(function ($event) {
-                $event['actor'] = $event['actor']['login'];
-                $event['repo_url'] = $event['repo']['url'];
-                $event['repo'] = $event['repo']['name'];
-                $event['created_at'] = Carbon::parse($event['created_at'])->format('Y-m-d H:i:s');
-                $eventModel = GithubEvent::firstOrNew(['id' => $event['id']]);
-                if (!$eventModel->exists) {
-                    $eventModel->fill($event);
-                    $eventModel->save();
-                }
-            });
+            $event->setUsername('aguimaraes');
+            $event->all();
             $this->info('Events successfully imported.');
         } catch (\Exception $e) {
             Log::error(
