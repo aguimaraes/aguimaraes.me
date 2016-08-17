@@ -15,10 +15,10 @@ class CreateGithubEventsTable extends Migration
         Schema::create('github_events', function (Blueprint $table) {
             $table->unsignedInteger('id');
             $table->string('type');
-            $table->integer('actor_id');
-            $table->integer('repo_id');
+            $table->unsignedInteger('actor_id');
+            $table->unsignedInteger('repo_id');
             $table->boolean('public');
-            $table->integer('org_id')->nullable();
+            $table->unsignedInteger('org_id')->nullable();
             $table->timestamps();
 
             $table->foreign('actor_id')
