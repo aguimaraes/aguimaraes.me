@@ -90,5 +90,4 @@ class GithubEventPersistence
         $event->org()->associate($org);
         return $org;
     }
-
 }
